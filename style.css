@@ -8,7 +8,7 @@ body, html {
 
 /* Космический фон */
 body {
-    background: linear-gradient(#0b0c2b, #1c1d44);
+    background: blak;
     background-image: radial-gradient(white 1px, transparent 1px);
     background-size: 20px 20px;
 }
