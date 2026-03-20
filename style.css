@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Космический фон */
+body {
+    background: linear-gradient(#0b0c2b, #1c1d44);
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Центрируем контейнер */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+    color: #FFD700; /* золотой */
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0;
+}
+
+/* Абзацы */
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #fff;
+}
